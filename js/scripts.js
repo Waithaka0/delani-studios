@@ -11,5 +11,11 @@ $(document).ready(function() {
             else {
                 alert("Please provide your correct name and email!");
             }
-
         });
+
+
+  $("figcaption").click(function() {
+    $(".design-hidden").toggle();
+    $(".design-showing").toggle();
+  });
+});
