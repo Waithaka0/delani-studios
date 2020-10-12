@@ -6,10 +6,13 @@
   padding-bottom: 200px;
 }
 
-.overlay2{
-  background-image: url(../assets/backgrounds/s_img.jpg);
-  padding-bottom: 200px;
-  padding-top: 200px;
-  padding-left: 200px;
-  padding-bottom: 200px;
+.services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    height: 280px;
+}
+
+.contacts {
+    background-image: url("../assets/backgrounds/c_image.jpg");
+    height: 600px;
+    padding-top: 50px;
 }
