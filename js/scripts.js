@@ -1,4 +1,10 @@
 $(document).ready(function() {
+  $("#clickable-dev").click(function(){
+     $("#dev-info-hidden").toggle();
+     $("#dev-info-showing").toggle();
+ });
+
+ 
   $("form#form").on('submit',function(event){
             event.preventDefault();
             let name = $("input#name").val();
@@ -12,10 +18,3 @@ $(document).ready(function() {
                 alert("Please provide your correct name and email!");
             }
         });
-
-
-  $("figcaption").click(function() {
-    $(".design-hidden").toggle();
-    $(".design-showing").toggle();
-  });
-});

@@ -19,3 +19,7 @@
 .design-hidden {
   display: none;
 }
+
+#dev-info-showing{
+    display: none;
+}
