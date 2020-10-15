@@ -4,7 +4,7 @@ $(document).ready(function() {
      $("#dev-info-showing").toggle();
  });
 
- 
+
   $("form#form").on('submit',function(event){
             event.preventDefault();
             let name = $("input#name").val();
@@ -18,3 +18,4 @@ $(document).ready(function() {
                 alert("Please provide your correct name and email!");
             }
         });
+ 
