@@ -23,3 +23,7 @@
 #dev-info-showing{
     display: none;
 }
+
+#prod-info-hidden{
+  display: none;
+}
